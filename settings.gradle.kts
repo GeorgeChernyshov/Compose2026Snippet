@@ -22,6 +22,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Compose_1_12_Snippet"
-include(":app")
+rootProject.name = "Compose2026Snippet"
+include(":post2025")
+include(":pre2025")
  

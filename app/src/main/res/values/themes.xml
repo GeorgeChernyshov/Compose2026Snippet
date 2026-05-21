@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <style name="Theme.Compose_1_12_Snippet" parent="android:Theme.Material.Light.NoActionBar" />
-</resources>
