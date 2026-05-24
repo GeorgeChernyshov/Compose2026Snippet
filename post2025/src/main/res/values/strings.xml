@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Compose2026Snippet-post25</string>
+
+    <!-- grid -->
+    <string name="grid_description">Play around with the new Grid composable!</string>
+    <string name="grid_slider_columns">Columns</string>
+    <string name="grid_slider_rows">Rows</string>
+
+    <!-- screen labels -->
+    <string name="label_grid">Grid</string>
 </resources>

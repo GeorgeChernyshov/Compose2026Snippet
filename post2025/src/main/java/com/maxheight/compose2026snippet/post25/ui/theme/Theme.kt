@@ -9,6 +9,7 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.tooling.preview.PreviewWrapperProvider
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
@@ -54,4 +55,11 @@ fun Compose2026SnippetTheme(
         typography = Typography,
         content = content
     )
+}
+
+class ThemePreviewWrapper : PreviewWrapperProvider {
+    @Composable
+    override fun Wrap(content: @Composable (() -> Unit)) {
+        Compose2026SnippetTheme { content() }
+    }
 }
