@@ -1,4 +1,4 @@
-package com.maxheight.compose2026snippet.post25.ui.util
+package com.maxheight.compose2026snippet.pre25.ui.util
 
 val ClosedFloatingPointRange<Float>.width: Float
     get() = maxOf(this.endInclusive - this.start, 0.02f)
